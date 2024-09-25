@@ -1,0 +1,32 @@
+[server]
+protocol = http
+http_port = 9999
+# possible values : production, develop, local
+app_mode = production
+# possible values : debug, release, test
+debug_mode = release
+
+[mongo]
+host      =
+port      =
+database  =
+username  =
+password  =
+colname   =
+
+[redis]
+redis_host     =
+redis_user     =
+redis_password =
+redis_port     =
+redis_db       =
+
+[mysql]
+host      =
+port      =
+database  =
+username  =
+password  =
+charset   =
+collation =
+
